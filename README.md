@@ -1,4 +1,4 @@
-#RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline
+RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline
 
 
 1.Overview
@@ -9,6 +9,7 @@ It is developed based RAK8212 and other products in existence will ba added in t
 
 2.Structure
 
+![image](https://github.com/RAKWireless/RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline/blob/master/structure.png)
 The file includes two part：
 
 2.1 bootloader
