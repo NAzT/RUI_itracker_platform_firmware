@@ -16,7 +16,33 @@ update log:
 
 #define RAK8211_G
 
+4. GPS data is GPGGA format, detail is below:
 
+$GPGGA,<1>,<2>,<3>,<4>,<5>,<6>,<7>,<8>,<9>,M,<10>,M,<11>,<12>*hh
+
+<1> UTC time，hhmmss 
+
+<2> Dimensionality
+
+<3> Dimensions of the hemisphere, N or S
+
+<4> Longitude
+
+<5> Longitude of the hemisphereE, E or W
+
+<6> GPS state：0=no location, 1=nondifferential positioning，2=differential positioning，6=estimating 
+
+<7> satellite quantity（00~12）
+
+<8> Horizontal dilution of precision（0.5~99.9） 
+
+<9> Altitude（-9999.9~99999.9） 
+
+<10> The height of the earth's ellipsoid relative to the geoid
+
+<11> Differential time
+
+<12> Differential station
 ***************************************************************************************************************************
 RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline
 ==
