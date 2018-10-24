@@ -1,3 +1,23 @@
+***************************************************************************************************************************
+
+2018.10.24
+
+update log:
+
+1. Support RAK8211-G and RAK8211 now
+
+2. Find the product you will compile at \itracker\ble_peripheral\itracker\pca10040\s132\arm5_no_packs
+
+3. Before compiling, choose the product in board_platform.h at itracker\Source\include. Just keep one like below:
+
+//here define the type of itracker 
+
+//#define RAK8212
+
+#define RAK8211_G
+
+
+***************************************************************************************************************************
 RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline
 ==
 
