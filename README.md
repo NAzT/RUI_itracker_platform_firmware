@@ -1,5 +1,50 @@
 ***************************************************************************************************************************
 
+2018.10.29
+
+**Important update log**:
+
+We supply a project tool to help you have a quick start. You can choose the type of mcu and related sensors, and then make sure with
+finish button. It will automatically config the project according to your choose and open the project. For example, choose like below:
+
+*MCU: nRF52832
+
+*Sensor: bme280,lis3dh,lis2mdl,opt3001,BG96
+
+It means the product RAK_8212. Now it support RAK_8212 and RAK_8211_G, and we will add new product abidingly. And the config of each 
+product, you can see it from our website below:
+
+https://www.rakwireless.com/en/download
+
+**Folder declare**:
+
+RAK_CONFIG_TOOL: Tools source code, open with vs2015
+
+head: product config head file
+
+RUI_CONFIG_TOOL.exe: config tools
+
+**Notice**:
+
+When choose and finish, the keil project will open. If prompt message is the Syntax error, just affirm. 
+
+**How to use**:
+
+1. First download the zip file to your folder, then download the nRF52832 SDK 15.0.0
+
+    https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832
+
+2. Uncompress the zip and put itracker to the path like below 
+
+..\RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline\src\nRF5_SDK_15.0.0_a53641a\itracker\
+
+3. Open the RUI_CONFIG_TOOL.exe (based on 64 bit) below ..\itracker\tools. First choose mcu and then choose sensors. If the product is available ,the keil project will open automatically. Now it support RAK_8212 and RAK_8211_G, and we will add new product abidingly. And the config of each product, you can see it from our website below:
+
+    https://www.rakwireless.com/en/download
+
+***************************************************************************************************************************
+
+
 2018.10.24
 
 update log:
