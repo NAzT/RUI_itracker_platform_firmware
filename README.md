@@ -36,7 +36,7 @@ When choose and finish, the keil project will open. If prompt message is the Syn
 
 2. Uncompress the zip and put itracker to the path like below 
 
-..\RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline\src\nRF5_SDK_15.0.0_a53641a\itracker\
+..\src\nRF5_SDK_15.0.0_a53641a\itracker\
 
 3. Open the RUI_CONFIG_TOOL.exe (based on 64 bit) below ..\itracker\tools. First choose mcu and then choose sensors. If the product is available ,the keil project will open automatically. Now it support RAK_8212 and RAK_8211_G, and we will add new product abidingly. And the config of each product, you can see it from our website below:
 
@@ -100,7 +100,7 @@ It is developed based on 8212 and other products in existence will ba added in t
 
 2.Structure
 
-![image](https://github.com/RAKWireless/RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline/blob/master/structure.png)
+![image](https://github.com/RAKWireless/RUI_itracker_platform_firmware/blob/master/structure.png)
 The file includes two part：
 
 2.1 bootloader
