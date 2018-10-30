@@ -32,7 +32,7 @@ When choose and finish, the keil project will open. If prompt message is the Syn
 
 1. First download the zip file to your folder, then download the nRF52832 SDK 15.0.0
 
-    https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832
+    https://github.com/RAKWireless/nRF5SDK15.0.0
 
 2. Uncompress the zip and put itracker to the path like below 
 
@@ -89,14 +89,14 @@ $GPGGA,<1>,<2>,<3>,<4>,<5>,<6>,<7>,<8>,<9>,M,<10>,M,<11>,<12>*hh
 
 <12> Differential station
 ***************************************************************************************************************************
-RAK_itracker_firmware_based_on_nRF5SDK15.0_freertos_baseline
+RUI_itracker_platform_firmware
 ==
 
 1.Overview
 
-The project is a baseline of RAK itracker series, which includes series mcu of nRF52 and many kinds of peripheral devices, such as accelerometer, magnetometer...
+The project is a baseline of itracker with nRF5 SDK 15.0.0 and FreeRTOS, which includes series mcu of nRF52 and many kinds of peripheral devices, such as accelerometer, magnetometer... We are trying to provide a platform structure for itracker series.
 
-It is developed based RAK8212 and other products in existence will ba added in this project gradually. We have Refactored the code and increased the expansibility as a platform to accommodate as many as more products, to decrease difficulty of maintenance. Besides, we provide a series of common api for user to handle the different sensors, and user don't need to care about the concrete realization of every sensor.
+It is developed based on 8212 and other products in existence will ba added in this project gradually. We have Refactored the code and increased the expansibility as a platform to accommodate as many as more products, to decrease difficulty of maintenance. Besides, we provide a series of common api for user to handle the different sensors, and user don't need to care about the concrete realization of every sensor.
 
 2.Structure
 
