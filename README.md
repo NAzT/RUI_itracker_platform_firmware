@@ -1,3 +1,15 @@
+
+***************************************************************************************************************************
+2018.11.1
+
+Update log:
+
+1. Add support to RAK8211_NB
+
+2. Adjust the source code of RUI_CONFIG_TOOL to a individual branch, and update synchronously with RUI_itracker_platform_firmware as  below:
+
+    https://github.com/RAKWireless/RUI_CONFIG_TOOL
+
 ***************************************************************************************************************************
 
 2018.10.29
