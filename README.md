@@ -6,13 +6,13 @@
 
 2. How to use
 
-2.1 First enable the marco of product in ..\itracker\Source\include\board_platform.h like below:
+    2.1 First enable the marco of product in ..\itracker\Source\include\board_platform.h like below:
     
     #define RAK8212
     //#define RAK8212_M
     //#define RAK8211_G
     //#define RAK8211_NB
-2.2 Then open the corresponding project in ..\itracker\ble_peripheral\itracker\pca10040\s132\arm5_no_packs\
+    2.2 Then open the corresponding project in ..\itracker\ble_peripheral\itracker\pca10040\s132\arm5_no_packs\
 
 ***************************************************************************************************************************
 2018.11.1
