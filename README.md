@@ -138,6 +138,7 @@ The project is a baseline of itracker with nRF5 SDK 15.0.0 and FreeRTOS, which i
 It is developed based on 8212 and other products in existence will ba added in this project gradually. We have Refactored the code and increased the expansibility as a platform to accommodate as many as more products, to decrease difficulty of maintenance. Besides, we provide a series of common api for user to handle the different sensors, and user don't need to care about the concrete realization of every sensor.
 
 2.Structure
+![image](https://github.com/RAKWireless/Pictures-for-readme/blob/master/RUI/RUI.png)
 
 ![image](https://github.com/RAKWireless/RUI_itracker_platform_firmware/blob/master/structure.png)
 The file includes two part：
