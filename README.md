@@ -139,7 +139,6 @@ It is developed based on 8212 and other products in existence will ba added in t
 
 2.Structure
 ![image](https://github.com/RAKWireless/Pictures-for-readme/blob/master/RUI/RUI.png)
-
 ![image](https://github.com/RAKWireless/RUI_itracker_platform_firmware/blob/master/structure.png)
 The file includes two part：
 
