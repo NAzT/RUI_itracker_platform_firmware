@@ -18,6 +18,16 @@
     
     
     2.2 Then open the corresponding project in ..\itracker\ble_peripheral\itracker\pca10040\s132\arm5_no_packs\
+   
+3. Log display
+
+    use J-link RTT Viewer to watch client running log like below:
+   
+   ![](https://github.com/RAKWireless/RAK8212_itracker_firmware_based_on_nRF5SDK15.0_freertos/blob/master/20180827122232.png)
+ 
+ 
+   ![](https://github.com/RAKWireless/RAK8212_itracker_firmware_based_on_nRF5SDK15.0_freertos/blob/master/20180827122253.jpg)
+   
 
 ***************************************************************************************************************************
 2018.11.1
